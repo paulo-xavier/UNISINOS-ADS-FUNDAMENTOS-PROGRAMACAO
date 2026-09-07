@@ -10,7 +10,7 @@ public class Main {
         System.out.println("Informe o raio do circulo: ");
         float raio = myObj.nextFloat(); 
 
-        float areaCirculo = raio * 3.1415f; 
+        float areaCirculo = raio * raio * 3.1415f; 
 
         System.out.printf("A area de um circulo com raio %.02f cm equivale a %.02f cm", raio, areaCirculo );
     }
